@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Pendaftaran Vaksin</title>
+    </head>
+    <body>
+        <!-- Latar belakang gradien warna -->
+        <div class="page-background">
+            <!-- Jarak konten halaman dari pinggir layar -->
+            <div class="page-wrapper">
+                <!-- Konten halaman bentuk kartu -->
+                <div class="card">
+                    <!-- Latar belakang kartu berupa gambar vaksin -->
+                    <div class="card-background"></div>
+                    <!-- Badan kartu berupa form pendaftaran -->
+                    <div class="card-body">
+                        <h1 class="title">Formulir Pendaftaran Vaksin Batch #3</h1>
+                        <form action="hasil.html" method="get">
+                            <div class="input-form">
+                                <input class="input-style" type="text" name="nama" placeholder="Nama Lengkap" required>
+                            </div>
+                            <div class="input-form">
+                                <input class="input-style" type="text" name="nik" placeholder="NIK (Sesuai KTP)" required>
+                            </div>
+                            <div class="input-form">
+                                <input class="input-style" onfocus="(this.type='date')" onblur="(this.type='text')" name="tglahir" placeholder="Tanggal Lahir" required>
+                            </div>
+                            <div class="input-form">
+                                <select class="input-style" name="gender" required>
+                                    <option value="" disabled hidden selected>Gender</option>
+                                    <option value="lk">Laki-Laki</option>
+                                    <option value="pr">Perempuan</option>
+                                </select>
+                            </div>
+                            <div class="input-form">
+                                <input class="input-style" type="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="input-form">
+                                <input class="input-style" type="tel" name="telp" placeholder="Nomor HP" required>
+                            </div>
+                            <div class="input-form">
+                                <!-- Tombol submit formulir -->
+                                <button class="input-submit" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
