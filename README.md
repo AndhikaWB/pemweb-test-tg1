@@ -71,3 +71,11 @@ Repo ini berisi kumpulan tugas yang diberikan saat kelas.
     Misal, pada repository ini yaitu `git push pemweb-dhika master`. **Note:** bila mendapat peran member atau kontributor jangan asal push apalagi ke repository orang lain. Tidak semua repository diaktifkan mekanisme review perubahan (sehingga perubahan akan langsung masuk tanpa proses review terlebih dahulu)
 
 12. Cek perubahan dengan mengunjungi repository online Github. Misal pada repo ini yaitu `https://github.com/AndhikaWB/pemweb-test-tg1`
+
+13. **Tambahan:** Untuk berganti/menambah branch, dapat digunakan perintah:
+
+    ```shell
+    git checkout -b <nama-branch>
+    ```
+
+    **Note:** Untuk mengunggah branch baru tersebut (dari lokal) ke repo online Github dapat diulang kembali langkah 8 dst. **Note 2:** Bila branch sudah ada pada repo online sebelumnya (hanya berganti branch, bukan sekaligus membuat branch baru), disarankan menggunakan `git pull <alias-repo> <nama-branch>` untuk mengunduh data file pada branch tersebut terlebih dahulu (sebelum melakukan modifikasi)
